@@ -209,6 +209,15 @@
       supportsAudio();
     }
 
+    var audioContext = function() {
+      if (audioRecorder) {
+        return audioRecorder.audioContext();
+      }
+      else {
+        return null;
+      }
+    };
+
     return {
       startRecording: startRecording,
       stopRecording: stopRecording,
@@ -218,7 +227,7 @@
       clear: clear,
       playHtmlAudioElement: playHtmlAudioElement,
       supportsAudio: supportsAudio,
-      recorder: recorder
+      audioContext: audioContext
     };
   };
 })();
