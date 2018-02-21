@@ -1,0 +1,36 @@
+{
+  "name": "aws-lex-browser-audio-capture",
+  "version": "1.0.0",
+  "description": "An example of using the Amazon Lex JavaScript SDK to send and receive audio from the Lex PostContent API. Demonstrates how to capture an audio device, record audio, convert the audio into a format that Lex will recognize, and play the response. All from a web browser.",
+  "main": "Gruntfile.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha": "^1.0.4",
+    "grunt-mocha-test": "^0.13.3",
+    "webworkify": "^1.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awslabs/aws-lex-browser-audio-capture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awslabs/aws-lex-browser-audio-capture/issues"
+  },
+  "homepage": "https://github.com/awslabs/aws-lex-browser-audio-capture#readme"
+}
