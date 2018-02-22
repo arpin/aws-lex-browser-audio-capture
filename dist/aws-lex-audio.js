@@ -326,7 +326,8 @@
     return {
       advanceConversation: this.advanceConversation,
       updateConfig: this.updateConfig,
-      reset: this.reset
+      reset: this.reset,
+      audioContext: audioControl.audioContext
     };
   };
 
